@@ -1,5 +1,5 @@
 before_build:
-- cmd: '"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\sn.exe" -i EncrpytedSign\EncryptedSignKey_pw-test123.pfx VS_KEY_D59A555FE29651B8'
+- cmd: EncrpytedSign\PfxToSnk.exe EncrpytedSign\key.snk EncrpytedSign\EncryptedSignKey_pw-test123.pfx %supersecret%
 
 after_build:
-- cmd: '"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\sn.exe" -d VS_KEY_D59A555FE29651B8'
+- cmd: del key.snk

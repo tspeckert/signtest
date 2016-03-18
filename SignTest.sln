@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		appveyor.yml = appveyor.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PfxToSnk", "PfxToSnk\PfxToSnk.csproj", "{55153C31-7B88-4CA1-9C04-A3DCD9C51504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{7EF99A15-89C8-40C7-80A4-2812FB05B4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EF99A15-89C8-40C7-80A4-2812FB05B4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EF99A15-89C8-40C7-80A4-2812FB05B4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55153C31-7B88-4CA1-9C04-A3DCD9C51504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55153C31-7B88-4CA1-9C04-A3DCD9C51504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55153C31-7B88-4CA1-9C04-A3DCD9C51504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55153C31-7B88-4CA1-9C04-A3DCD9C51504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
