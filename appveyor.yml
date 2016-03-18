@@ -1,0 +1,5 @@
+before_build:
+- cmd: echo %supersecret% | sn -i EncrpytedSign\EncryptedSignKey_pw-test123.pfx TempContainer
+
+after_build:
+- cmd: sn -d TempContainer
