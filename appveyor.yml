@@ -2,4 +2,4 @@ before_build:
 - cmd: EncrpytedSign\PfxToSnk.exe EncrpytedSign\key.snk EncrpytedSign\EncryptedSignKey_pw-test123.pfx %supersecret%
 
 after_build:
-- cmd: del key.snk
+- cmd: del EncrpytedSign\key.snk
